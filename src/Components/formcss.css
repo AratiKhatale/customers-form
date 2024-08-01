@@ -1,0 +1,131 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mobile-container {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-prefix {
+  background-color: #ddd;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.mobile-container input {
+  flex: 1;
+  border-radius: 0 4px 4px 0;
+}
+
+.address-section {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+.address-section h3 {
+  margin-top: 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover, button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+ul li button {
+  width: auto;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  margin-left: 10px;
+}
+.FieldLabel-WiButton {
+  display: flex;
+  align-items: center;
+  padding: '9px';
+}
+.container {
+  margin-top: 2rem;
+}
+
+.address-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.address-title {
+  margin-bottom: 8px;
+}
+
+.add-button {
+  margin-top: 16px;
+}
+
+.submit-button {
+  margin-top: 16px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon-button {
+  margin-left: 8px;
+}
+.typography{
+  font-size: xx-large;
+  font-family: auto;
+  font-weight: bold;
+
+}
